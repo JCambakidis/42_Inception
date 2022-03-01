@@ -54,10 +54,10 @@ volumes:
   mariadb:
     driver_opts:
       type: none
-      device: /Users/jcambaki/Desktop/inception/data/mariadb
+      device: /home/jcambaki/data/mariadb
       o: bind
   wordpress:
     driver_opts:
       type: none
-      device: /Users/jcambaki/Desktop/inception/data/wordpress
+      device: /home/jcambaki/data/wordpress
       o: bind
